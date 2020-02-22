@@ -124,7 +124,7 @@
                                         </exec>
                                         <exec executable="docker">
                                             <arg value="push"/>
-                                            <arg value="dockermavensample:latest"/>
+                                            <arg value="dchethanshdocker/dockermavenexamples"/>
                                         </exec>
                                     </target>
                                 </configuration>
