@@ -120,11 +120,11 @@
                                         <exec executable="docker">
                                             <arg value="tag"/>
                                             <arg value="dockermavensample:${project.version}"/>
-                                            <arg value="dockermavensample:latest"/>
+                                            <arg value="chethanshdocker/dockermavenexamples:${project.version}"/>
                                         </exec>
                                         <exec executable="docker">
                                             <arg value="push"/>
-                                            <arg value="dchethanshdocker/dockermavenexamples"/>
+                                            <arg value="chethanshdocker/dockermavenexamples:${project.version}"/>
                                         </exec>
                                     </target>
                                 </configuration>
