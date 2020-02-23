@@ -120,11 +120,11 @@
                                         <exec executable="docker">
                                             <arg value="tag"/>
                                             <arg value="dockermavensample:${project.version}"/>
-                                            <arg value="akkidocker:latest"/>
+                                            <arg value="akshay1350/akkidocker:latest"/>
                                         </exec>
                                         <exec executable="docker">
                                             <arg value="push"/>
-                                            <arg value="akkidocker:latest"/>
+                                            <arg value="akshay1350/akkidocker:latest"/>
                                         </exec>
                                     </target>
                                 </configuration>
