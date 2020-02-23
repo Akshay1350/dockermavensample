@@ -2,7 +2,7 @@
 FROM tomcat:8.0.30-jre7
 
 # Maintainer
-MAINTAINER "ravindu@emojot.com"
+MAINTAINER "chetan"
 # Set Environment properties
 ENV JAVA_OPTS=-Denvironment=production
 
